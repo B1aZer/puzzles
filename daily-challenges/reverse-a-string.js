@@ -1,7 +1,6 @@
 let a = 'home sweet home!';
 function reverse(a) {
 	let newS = '';
-  //why??
   let sLen = a.length - 1;
   while (sLen >= 0) {
   	let letter = a[sLen];
@@ -19,7 +18,6 @@ function reverse(a) {
     	newS += a[sLen--];
     }
 	}
-
 	return newS;
 }
 console.assert(reverse(a) === 'home! sweet home', reverse(a));
