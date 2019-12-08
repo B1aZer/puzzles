@@ -4,3 +4,8 @@ x = x&(x-1); counts number of 1 (will have all the bits equal to the x except fo
 x ^ ( x & (x-1)) : Returns the rightmost 1 in binary representation of x.
 x & (-x) : Returns the rightmost 1 in binary representation of x
 x | (1 << n) : Returns the number x with the nth bit set.
+
+```js
+(4).toString(2)
+parseInt('100', 2)
+```
