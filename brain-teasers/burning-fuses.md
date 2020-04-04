@@ -10,4 +10,6 @@ burn. Using only the fuses and the lighter, measure a period of exactly 40 minut
 
 ###### If they can't be reused we can make interval of 5 seconds by simple counting 5 in our mind and making marks on fuse. We can be sure we counted properly if fuse sums up to 1 hour.
 
-##### If we can move with infinite speed. We can use time dilation to slowdown fuse burning. We move at the 95% of speed of light which slows time approximately by 1/3. Thus one fuse lighted at this speed will burn in 20m of Earth observer time. Two fuses will give us 40 minutes.
+###### If we can move with infinite speed. We can use time dilation to slowdown fuse burning. We move at the 95% of speed of light which slows time approximately by 1/3. Thus one fuse lighted at this speed will burn in 20m of Earth observer time. Two fuses will give us 40 minutes.
+
+###### Begin from both starts
