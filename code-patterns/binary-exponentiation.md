@@ -7,7 +7,7 @@ If n is odd, then x*x^n-1
 
 The comlexity is reduced from O(n) to O(log n)
 
-```ts
+```typescript
 function binaryExponentiation(x:number,n:number) {
     if(n==0)
         return 1;
