@@ -7,4 +7,4 @@ water or the speed the rope moves through your hands?
 
 ### Solution
 
-pythogoras theorem on 3 states
+###### pythogoras theorem on 3 states

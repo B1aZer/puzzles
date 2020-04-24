@@ -8,5 +8,4 @@ In a hall with k lockers, how many lockers remain open after pass k?
 
 ### Solution
 
-n -> factors of n -> odd factors -> only factors that are equal -> number of
-square roots between 1 and n -> floor(sqrt(n))
+###### n -> factors of n -> odd factors -> only factors that are equal -> number of square roots between 1 and n -> floor(sqrt(n))

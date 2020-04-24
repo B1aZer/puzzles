@@ -14,4 +14,4 @@ hypercubes on the surface of an n×n×n×n hypercubic array of 4D hypercubes.
 
 ### Solution
 
-n^i-(n-2)^i
+###### n^i-(n-2)^i

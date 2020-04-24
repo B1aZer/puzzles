@@ -6,4 +6,4 @@ identifying the heavy marble?
 
 ### Solution
 
-Ternary weighting
+###### Ternary weighting
