@@ -1,3 +1,7 @@
+// Better implementation is in
+// https://github.com/latentflip/loupe
+// This does not include task, microprocessor differences
+
 let run = true;
 let queue = [];
 cycle(0);
