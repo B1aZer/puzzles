@@ -14,3 +14,21 @@ String.fromCharCode('a');
 // (which is modified above)
 
 ```
+
+We can do the same for charAt function:
+
+```js
+
+'a'.constructor.prototype.charAt=''.concat;
+
+'a'.charAt(1)
+// 'a1'
+
+```
+
+We can go even further
+
+```js
+
+'a'.constructor.prototype.charAt=''.concat.bind('alert(1)');
+```
