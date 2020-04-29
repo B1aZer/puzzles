@@ -79,3 +79,9 @@ Math.pow(2, 1024)
  */
 
 0.1 + 0.2
+
+/* Only the unsigned right shift operator (>>>) works with unsigned 32-bit
+ * integers; all other bitwise operators work with signed 32-bit integers.
+ */
+
+4294967295 | 0 === -1
