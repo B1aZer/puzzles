@@ -23,10 +23,12 @@ matrix, with n even, so that each row and each column contains exactly n / 2 zer
 2 ones. We ask how many different assignments there are for a given n.
 For example, when n = 4, four possible solutions are:
 
+```
 0 1 0 1   0 0 1 1   1 1 0 0   1 0 0 1
 1 0 1 0   0 0 1 1   0 0 1 1   0 1 1 0
 0 1 0 1   1 1 0 0   1 1 0 0   0 1 1 0
 1 0 1 0   1 1 0 0   0 0 1 1   1 0 0 1
+```
 
 Brute force consists of checking all assignments of zeros and ones and counting those that
 have balanced rows and columns (n / 2 zeros and n / 2 ones). As there are [n n/2]^n possible assignments, this strategy is not
@@ -62,7 +64,9 @@ the vector is a permutation of n / 2 g(0,1) and n / 2 g(1,0) pairs or not.
 
 The number of solutions is
 
+```
 1,2,90,297200,116963796250,6736218287430460752,...
+```
 
 https://en.wikipedia.org/wiki/Dynamic_programming#A_type_of_balanced_0%E2%80%931_matrix
 
