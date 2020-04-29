@@ -9,6 +9,13 @@ could rely on following techniques:
  - Backtracking
  - Dynamic programming
 
+In a general sense. The most optimal solution is a closed form. Closed form
+derived through mathematics and can be calculated without use of computer. Brute force is
+naive programming approach for the problem. Backtracking is a programmatically optimized brute
+force algorithm (optimal data structure). Dynamic programming is mathematically and
+programmatically (caching, data structure) optimized algorithm 
+
+
 Let's look at example:
 
 Consider the problem of assigning values, either zero or one, to the positions of an n × n
