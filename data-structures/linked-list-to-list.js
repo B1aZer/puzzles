@@ -3,7 +3,7 @@ class LinkedList {
 	constructor() {
   	this.head = null;
   }
-  shift(listVal) {
+  unshift(listVal) {
   	let listEl = new ListElement(listVal);
     listEl.next = this.head;
     this.head = listEl;
@@ -22,7 +22,7 @@ class LinkedList {
  		prevItem.next = tail.next;
     return tail;
   }
-  unshift() {
+  shift() {
   	let reObj = this.head;
     this.head = this.head.next;
     return reObj;
@@ -80,15 +80,15 @@ function linkedListToList(llHead) {
 let list = new LinkedList();
 
 
-list.shift(42);
+list.unshift(42);
 console.info(linkedListToList(list.head));
-list.shift(2);
+list.unshift(2);
 console.info(linkedListToList(list.head));
 list.push(3);
 console.info(linkedListToList(list.head));
 console.info(list.pop());
 console.info(linkedListToList(list.head));
-console.info(list.unshift());
+console.info(list.shift());
 console.info(linkedListToList(list.head));
 list.push(3);
 list.push(1);
