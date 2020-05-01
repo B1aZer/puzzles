@@ -4,8 +4,12 @@ class SetOfStacks {
     this.stacks = [];
     this.len = 0;
   }
+  leftShift() {
+    // shift values to left
+  }
   getStack(i) {
   	if (i >= 0) {
+      this.leftShift();
     	return this.stacks[i];
     }
     return this.stacks[Math.floor(this.len / this.maxLen)];
