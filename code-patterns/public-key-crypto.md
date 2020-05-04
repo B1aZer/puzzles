@@ -52,6 +52,19 @@ Or in simpler terms:
 Then public key function is c(m) = m^e mod n
 The private key function is m(c) = c^d mod n
 
+Basically RSA uses 2 key algorithms in one: encryption and signature. Even
+though it's convenient it might not be the best choice. The issue is the it
+uses single key pair for both encryption and singing. This decreases the
+security (by increasing attack vectors) and complicates key management (we need
+to backup encryption key to decrypt old messages, but we don't have to do it
+for signature key). The alternative is to use PGP.
+
+Another alternative is to use eliptic curves. Disadvantages:
+
+ - it's harder to implement properly
+ - research is only 50 years old, while prime math research is over 2500 years old
+
+https://crypto.stackexchange.com/questions/1190/why-is-elliptic-curve-cryptography-not-widely-used-compared-to-rsa
 
 ```js
 'use strict';
