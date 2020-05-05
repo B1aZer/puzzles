@@ -40,7 +40,7 @@ console.log(h.keys)
 console.log(h.get(9));
 console.log(h.get(10));
 
-// Hash table data is hiden inside constructor
+// Hash table data is hidden inside constructor
 // ===
 
 class HashTable {
@@ -81,10 +81,10 @@ let h = new HashTable();
 new Array(20).fill(0).map((x,i) => i).forEach(x => h.set(x, x*2));
 // will not work
 console.log(h.keys)
-// but we able to see any private properties and methods with
+// but we able still able to see privileged method names
 Object.keys(new HashTable())
 
-// Hash table data and methods are hiden inside constructor
+// Hash table data and methods are hidden inside constructor
 // ===
 
 const _keys = new WeakMap();

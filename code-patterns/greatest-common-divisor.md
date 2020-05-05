@@ -20,6 +20,8 @@ Euclid's algorithm. O(log(max(A, B))).
 
 The idea behind this algorithm is GCD(A,B) = GCD(B, A%B). It will recurse until A%B=0.
 
+https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm
+
 ```js
 function GCD(/* int */ A, /* int */ B) {
     if (B===0)

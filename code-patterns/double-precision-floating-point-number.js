@@ -20,6 +20,11 @@ Math.pow(2,53) == Math.pow(2,53)+1
 
 (15.2 | 0) === 15
 
+/* These are not equal for above reason */
+
+ 1 + 0 ? 2 : 3
+ 1 + (0 ? 2 : 3)
+
 /* Works because all bitwiser operation convert double precision floating
  * number to 32 bit signed integer.
  */
