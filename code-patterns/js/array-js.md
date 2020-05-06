@@ -45,5 +45,6 @@ function incRef(numberRef) {
 }
 var n = [7];
 incRef(n);
-console.log(n[0]);  // 8
+console.log(n[0]);
+// 8
 ```
