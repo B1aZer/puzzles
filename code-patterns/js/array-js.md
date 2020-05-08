@@ -29,6 +29,13 @@ Array.apply(null, Array(3))
 //[ undefined, undefined, undefined ]
 ```
 
+We can use the same techinque to reuse a function with multiple arguments
+
+```js
+Math.min.apply(Math, [1,2,3])
+//1
+```
+
 For string we can use localeCompare to compare
 ```
 String.prototype.localeCompare
@@ -48,3 +55,5 @@ incRef(n);
 console.log(n[0]);
 // 8
 ```
+
+Arrays can be use to define a vector.
