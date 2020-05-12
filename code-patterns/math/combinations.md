@@ -1,0 +1,56 @@
+Permutations (5 places of 5 items)
+
+```
+5!
+```
+General formula
+
+```
+nPr = n! / (n-k)!
+
+```
+
+5 items on 3 places
+
+```
+
+5*4*3
+
+5! / (5-3)!
+```
+
+All Possible non-repeating
+
+```
+n^c
+n - num of items
+c - num of places
+```
+
+Zero factorial
+
+```
+0! = 1
+```
+
+Combinations
+
+```
+all perm / # of ways you can arrenge them
+```
+
+How many 3 letter combinations of 6 letters?
+
+```
+120 / 6
+```
+
+General formula
+
+```
+C = n! / k! (n - k)!
+```
+
+As we all know there are 2N possible subsets of any given set with N elements
+
+
