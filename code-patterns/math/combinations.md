@@ -45,7 +45,7 @@ How many 3 letter combinations of 6 letters?
 120 / 6
 ```
 
-General formula
+General formula. Binomial koefficients. Put k items in n buckets. Or choose k from n buckets (n k)
 
 ```
 C = n! / k! (n - k)!
