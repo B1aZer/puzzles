@@ -45,12 +45,17 @@ How many 3 letter combinations of 6 letters?
 120 / 6
 ```
 
-General formula. Binomial koefficients. Put k items in n buckets. Or choose k from n buckets (n k)
+General formula. Binomial koefficients. Put k items in n buckets. Or choose k from n buckets (n k).
 
 ```
 C = n! / k! (n - k)!
 ```
 
-As we all know there are 2N possible subsets of any given set with N elements
+N choose 2 is equal to n(n - 1)/2. It's a one of the cases from binomial
+coefficients (n choose k). See also binomail theorem.
+
+As we all know there are 2^N possible subsets of any given set with N elements
+
+Binomail coefficents as well as subset of the set can be calculated using Pascal's triangle!
 
 
